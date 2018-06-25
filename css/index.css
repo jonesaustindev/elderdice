@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+  }
+
+  /* GRID */
+  .grid-updates {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 0.6em;
+  }
+  
+  /* Hero */
+  
+  @font-face {
+    font-family: 'Erin';
+    src: url('./fonts/Erin');
+  }
+  
+  #hero-title {
+    font-family: 'Erin';
+    font-size: 100px;
+    text-shadow: 0 1px 2px rgba(black,.15);
+  }
+  
+  #hero-container {
+    background-color: #5B5B5B;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 100vh;
+    color: white;
+  }
+  
+  /* Video Update */
+  #video-update {
+    height: 600px;
+  }
+  
+  #video-update-video {
+    width: 700px;
+    height: 400px;
+    background-color: black;
+    color: white;
+  }
+  
+  /* Pledges */
+  .pledges {
+    background: lightblue;
+  }

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
+    <title>Elder Dice</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <div id="hero-container">
+            <!-- <video id="background-video" loop mute autoPlay>
+                <source src="https://www.kickstarter.com/26d95492-54c2-4be8-89f6-7221e3fccabb" type="video/mp4" /> Your browser does not support the video tag.
+            </video> -->
+            <div class="container" id="hero-header">
+                <h1 id="hero-title">Elder Dice</h1>
+                <p>New Elder Dice: Unspeakable Tomes available now on Kickstarter. Dice to add the perfect magical touch to
+                    any fantasy or horror roleplaying game</p>
+                <a class="btn btn-primary" href="#" role="button">Learn More</a>
+                <a class="btn btn-primary" href="https://www.kickstarter.com/projects/infiniteblack/elder-dice-unspeakable-tomes-cthulhu-mythos-themed"
+                    role="button">Make Pledge</a>
+            </div>
+            <div class="grid-updates">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src='./images/crop1.jpg' alt="" />
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
+                            content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src='./images/crop2.jpg' alt="" />
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
+                            content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src='./images/crop3.jpg' alt="" />
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
+                            content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src='./images/crop4.jpg' alt="" />
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
+                            content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Update -->
+        <div id="video-update" className="container">
+            <h3>Video Update</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/18ipA6RZodA?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
+        </div>
+
+        <!-- Pledges -->
+        <div className="pledges">
+            <div className="container">
+                <!-- Level 1 -->
+                <div>
+                    <h4>Pledge $19 or More</h4>
+                    <h6>1 Set of Elder Dice</h6>
+                    <p>Get 1 set of polyhedral Elder Dice. Choose between any of the six Elder Dice designs after the campaign:
+                        the Sigil of the Dreamlands, the Yellow Sign, the Mark of the Necronomicon, the Brand of Cthulhu,
+                        the Astral Elder Sign, or the Lovecraft Elder Sign. Shipping to be collected at a later date.</p>
+                    <p>INCLUDES:</p>
+                    <ul>
+                        <li>1 Set of Nine Polyhedral Elder Dice</li>
+                        <li>1 Magnetic Grimoire Box</li>
+                        <li>All Applicable Stretch Goals Included</li>
+                    </ul>
+                    <p>Estimated Delivery Dec 2018</p>
+                </div>
+
+                <!-- Level 2 -->
+                <div>
+                    <h4>Pledge $34 or more</h4>
+                    <h6>2 Sets of Elder Dice</h6>
+                    <p>Get 2 sets of polyhedral Elder Dice. Choose between any of the six Elder Dice designs after the campaign:
+                        the Sigil of the Dreamlands, the Yellow Sign, the Mark of the Necronomicon, the Brand of Cthulhu,
+                        the Astral Elder Sign, or the Lovecraft Elder Sign. Shipping to be collected at a later date.</p>
+                    <p>INCLUDES:</p>
+                    <ul>
+                        <li>2 Sets of Nine Polyhedral Elder Dice</li>
+                        <li>2 Magnetic Grimoire Boxes</li>
+                        <li>All Applicable Stretch Goals Included</li>
+                    </ul>
+                    <p>Estimated Delivery Dec 2018</p>
+                </div>
+
+                <!-- Level 3 -->
+                <div>
+                    <h4>Pledge $44 or more</h4>
+                    <h6>3 Sets of Elder Dice</h6>
+                    <p>Get 3 sets of polyhedral Elder Dice. Choose between any of the six Elder Dice designs after the campaign:
+                        the Sigil of the Dreamlands, the Yellow Sign, the Mark of the Necronomicon, the Brand of Cthulhu,
+                        the Astral Elder Sign, or the Lovecraft Elder sign. Shipping to be collected at a later date.</p>
+                    <p>INCLUDES:</p>
+                    <ul>
+                        <li>3 Sets of Nine Polyhedral Elder Dice</li>
+                        <li>3 Magnetic Grimoire Boxes</li>
+                        <li>All Applicable Stretch Goals Included</li>
+                    </ul>
+                    <p>Estimated Delivery Dec 2018</p>
+                </div>
+
+                <!-- Level 4 -->
+                <div>
+                    <h4>Pledge $69 or more</h4>
+                    <h6>Elder Dice Collector’s Set</h6>
+                    <p>Get 3 sets of Elder Dice: Unspeakable Tomes polyhedral dice (one set of each design) AND 3 tubes of six-sided
+                        dice (one tube of each design).
+                        <br /> If you would rather have your dice in the original Elder Dice designs (the red Brand of Cthulhu,
+                        the blue Astral Elder Sign, and the green Lovecraft Elder Sign), you will be able to select that
+                        option when the campaign is over. Shipping to be collected at a later date.</p>
+                    <p>INCLUDES:</p>
+                    <ul>
+                        <li>1 Set of Nine Yellow Sign Polyhedral Elder Dice</li>
+                        <li>1 Yellow Sign Magnetic Grimoire Box</li>
+                        <li>1 Tube of Yellow Sign d6 Elder Dice</li>
+                        <li>1 Set of Nine Sigil of the Dreamlands Elder Dice</li>
+                        <li>1 Sigil of the Dreamlands Magnetic Grimoire Box</li>
+                        <li>1 Tube of Sigil of the Dreamlands d6 Elder Dice</li>
+                        <li>1 Set of Nine Mark of Necronomicon Elder Dice</li>
+                        <li>1 Mark of the Necronomicon Grimoire Box
+                        </li>
+                        <li>1 Tube of Mark of the Necronomicon d6 Elder Dice</li>
+                        <li>All Applicable Stretch Goals Included</li>
+                    </ul>
+                    <p>Estimated Delivery Dec 2018</p>
+                </div>
+
+                <!-- Level 5-->
+                <div>
+                    <h4>Pledge $99 or more</h4>
+                    <h6>Ultimate Doom Collection</h6>
+                    <p>Get 3 sets of Elder Dice: Unspeakable Tomes polyhedral dice (one set of each design), 3 tubes of six-sided
+                        dice (one tube of each design), the Unspeakable Tomes Doom Edition Playmat, the Lorecrafter's GM
+                        screen, 3 extra d20s, 3 extra percentile dice, and 3 collectable enamel pins.
+                        <br /> If you would rather have your dice and pins in the original Elder Dice designs (the red Brand of
+                        Cthulhu, the blue Astral Elder Sign, and the green Lovecraft Elder Sign), you will be able to select
+                        that option when the campaign is over. Shipping to be collected at a later date.</p>
+                    <p>INCLUDES:</p>
+                    <ul>
+                        <li>1 Set of Nine Yellow Sign Polyhedral Elder Dice</li>
+                        <li>1 Yellow Sign Magnetic Grimoire Box</li>
+                        <li>1 Tube of Yellow Sign d6 Elder Dice</li>
+                        <li>1 Set of Nine Sigil of the Dreamlands Elder Dice</li>
+                        <li>1 Sigil of the Dreamlands Magnetic Grimoire Box</li>
+                        <li>1 Tube of Sigil of the Dreamlands d6 Elder Dice</li>
+                        <li>1 Set of Nine Mark of Necronomicon Elder Dice</li>
+                        <li>1 Mark of the Necronomicon Grimoire Box
+                        </li>
+                        <li>1 Tube of Mark of the Necronomicon d6 Elder Dice</li>
+                        <li>All Applicable Stretch Goals Included</li>
+                        <li>1 Unspeakable Tomes Doom Edition Playmat</li>
+                        <li>1 Lorecrafter's GM Screen</li>
+                        <li>3 Extras d20s</li>
+                        <li>3 Extra Percentile Dice</li>
+                        <li>3 Collectable Enamel Pins</li>
+                        <li>All Applicable Stretch Goals Included</li>
+                    </ul>
+                    <p>Estimated Delivery Dec 2018</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Creators -->
+        <div className="container">
+            <h4>The Creators</h4>
+            <p>Elder Dice is a production of Infinite Black, LLC. Elder Dice are created by David LaRocca, an artist specializing
+                in Lovecraftian horror, and Heath Robinson, a game designer and author.</p>
+            <br />
+            <p>We are very excited to bring Elder Dice to the gaming community. It's a privilege to be entrusted by so many
+                people to bring this project to life. We will work hard to make sure it is as smooth as can be. Together
+                David and Heath have completed a combined seven Kickstarter campaigns. Each Kickstarter project brings many
+                valuable lessons learned. Because we have so much experience, we feel very confident in our ability to deliver
+                a quality product to you.</p>
+
+            <div className="container" id="video-update-video">
+                <p>Video block</p>
+            </div>
+        </div>
+
+        <!-- Orders -->
+        <div>
+            <h3>Order Your Set Today</h3>
+            <a href="https://www.kickstarter.com/projects/infiniteblack/elder-dice-unspeakable-tomes-cthulhu-mythos-themed" className="btn">Order</a>
+        </div>
+
+        <!-- Footer -->
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
